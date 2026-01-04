@@ -1,0 +1,23 @@
+// Mock products (fallback if API is unavailable). Keep shape aligned with the app's Product model.
+export const mockProducts = [
+  { id: 1, title: "Wireless Headphones", price: 59.99, category: "electronics", stock: 12, thumbnail: "" },
+  { id: 2, title: "Stainless Steel Water Bottle", price: 19.5, category: "home", stock: 0, thumbnail: "" },
+  { id: 3, title: "Running Shoes", price: 74.0, category: "fashion", stock: 25, thumbnail: "" },
+  { id: 4, title: "Yoga Mat", price: 24.99, category: "sports", stock: 8, thumbnail: "" },
+  { id: 5, title: "Smart Watch", price: 129.0, category: "electronics", stock: 5, thumbnail: "" },
+  { id: 6, title: "Desk Lamp", price: 32.0, category: "home", stock: 14, thumbnail: "" },
+  { id: 7, title: "Backpack", price: 44.5, category: "fashion", stock: 3, thumbnail: "" },
+  { id: 8, title: "Bluetooth Speaker", price: 39.99, category: "electronics", stock: 0, thumbnail: "" },
+  { id: 9, title: "Cookware Set", price: 89.0, category: "home", stock: 9, thumbnail: "" },
+  { id: 10, title: "Scented Candles (Pack of 3)", price: 15.25, category: "home", stock: 30, thumbnail: "" },
+  { id: 11, title: "Graphic T-Shirt", price: 14.99, category: "fashion", stock: 18, thumbnail: "" },
+  { id: 12, title: "Hoodie", price: 38.0, category: "fashion", stock: 6, thumbnail: "" },
+  { id: 13, title: "Dumbbells (Pair)", price: 52.0, category: "sports", stock: 10, thumbnail: "" },
+  { id: 14, title: "Football", price: 18.0, category: "sports", stock: 0, thumbnail: "" },
+  { id: 15, title: "Coffee Grinder", price: 27.5, category: "home", stock: 7, thumbnail: "" },
+  { id: 16, title: "Mechanical Keyboard", price: 79.99, category: "electronics", stock: 11, thumbnail: "" },
+  { id: 17, title: "Sunglasses", price: 22.0, category: "fashion", stock: 20, thumbnail: "" },
+  { id: 18, title: "Tennis Racket", price: 66.0, category: "sports", stock: 4, thumbnail: "" },
+  { id: 19, title: "Portable Charger", price: 25.0, category: "electronics", stock: 16, thumbnail: "" },
+  { id: 20, title: "Notebook (Hardcover)", price: 9.99, category: "stationery", stock: 40, thumbnail: "" },
+]
